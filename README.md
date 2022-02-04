@@ -9,13 +9,13 @@ https://ngrok.com/
 https://github.com/bubenshchykov/ngrok
 
 ```sh
-npm install ngrok
+npm install ngrok --global
 ```
 
 or with [`yarn`](https://github.com/hchiam/learning-yarn):
 
 ```sh
-yarn add ngrok
+yarn global add ngrok
 ```
 
 then:
@@ -23,4 +23,17 @@ then:
 ```sh
 ngrok http 3000
 # or #### for whatever port your localhost:#### is
+```
+
+## demo
+
+You'll need an account set up.
+
+```sh
+yarn; yarn global add ngrok parcel-bundler; parcel index.html --open;
+```
+
+```sh
+cd learning-ngrok; ngrok http 1234
+# copy the "Forwarding" HTTPS URL
 ```
