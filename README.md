@@ -8,6 +8,8 @@ https://ngrok.com/
 
 https://github.com/bubenshchykov/ngrok
 
+it's now closed-source and commercial: https://dashboard.ngrok.com/get-started/setup
+
 ```sh
 npm install ngrok --global
 ```
