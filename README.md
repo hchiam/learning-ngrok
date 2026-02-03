@@ -43,6 +43,24 @@ cd learning-ngrok; ngrok http 1234
 # copy the "Forwarding" HTTPS URL
 ```
 
+## if you need compatibility with [vite](https://github.com/hchiam/learning-vite)
+
+`vite.config.js`:
+
+```js
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  "server": {
+    "allowedHosts": ["sensational-sandee-overexpressive.ngrok-free.dev"]
+  }
+});
+```
+
+```sh
+ngrok http 5173
+```
+
 ## more
 
 https://ngrok.com/docs/start
