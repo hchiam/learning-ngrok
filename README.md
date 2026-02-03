@@ -30,6 +30,14 @@ ngrok http 3000
 # or #### for whatever port your localhost:#### is
 ```
 
+you'll then get the "random" URL for sharing
+
+and also for inspecting/status:
+
+```
+http://127.0.0.1:4040/
+```
+
 ## demo
 
 You'll need an account set up.
