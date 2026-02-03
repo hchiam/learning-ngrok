@@ -9,6 +9,7 @@ https://ngrok.com/
 https://github.com/bubenshchykov/ngrok
 
 it's now closed-source and commercial: https://dashboard.ngrok.com/get-started/setup
+- (note to self: update to be able to use now)
 
 ```sh
 npm install ngrok --global
@@ -19,6 +20,8 @@ or with [`yarn`](https://github.com/hchiam/learning-yarn):
 ```sh
 yarn global add ngrok
 ```
+
+then: create and account and copy the command that looks like `ngrok config add-authtoken .......`
 
 then:
 
