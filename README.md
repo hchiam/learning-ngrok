@@ -42,3 +42,13 @@ yarn; yarn global add ngrok parcel-bundler; parcel index.html --open;
 cd learning-ngrok; ngrok http 1234
 # copy the "Forwarding" HTTPS URL
 ```
+
+## more
+
+https://ngrok.com/docs/start
+
+for example:
+
+- https://ngrok.com/docs/traffic-policy/actions/oauth
+- https://dashboard.ngrok.com/traffic-inspector
+- https://ngrok.com/docs/agent/web-inspection-interface
