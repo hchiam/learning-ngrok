@@ -52,3 +52,4 @@ for example:
 - https://ngrok.com/docs/traffic-policy/actions/oauth
 - https://dashboard.ngrok.com/traffic-inspector
 - https://ngrok.com/docs/agent/web-inspection-interface
+- https://dashboard.ngrok.com/log-exporting for observability
